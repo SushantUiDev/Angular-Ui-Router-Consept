@@ -1,0 +1,20 @@
+{
+  "name": "Angular-Ui-Router-Consept",
+  "description": "",
+  "main": "index.js",
+  "license": "ISC",
+  "homepage": "https://github.com/SushantUiDev/Angular-Ui-Router-Consept",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "jquery": "^3.2.1",
+    "angular": "angularjs#^1.6.4",
+    "angular-ui-router": "^1.0.3"
+  }
+}

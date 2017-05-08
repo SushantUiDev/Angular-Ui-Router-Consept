@@ -1,0 +1,35 @@
+<html ng-app="myService">
+	<head>
+		<title>Index</title>
+			<!-- Website Font style -->
+	    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+	
+		<link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/cyborg/bootstrap.min.css" rel="stylesheet">
+		<link href="app/styles/main.css" rel="stylesheet">
+		<!--<link href="app/styles/register.css"> -->
+		<!-- Google Fonts -->
+		<link href='https://fonts.googleapis.com/css?family=Passion+One' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Oxygen' rel='stylesheet' type='text/css'>
+
+		<script src="bower_components/jquery/dist/jquery.js"></script>
+		<script src="bower_components/angular/angular.js"></script>
+	    <script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+	</head>
+	<body>
+		<div class="container" ng-controller="headerCtrl as hc"
+			 ng-include="'app/header/header.tpl.html'">
+			
+		</div>
+		 <div ui-view></div>
+		<script src="app/register/register.js"></script>
+		<script src="app/register/registerCtrl.js"></script>
+		<script src="app/products/products.js"></script>
+		<script src="app/products/productsCtrl.js"></script>
+		<script src="app/scripts/login.js"></script>
+		<script src="app/login/login.js"></script>
+		<script src="app/login/loginCtrl.js"></script>
+		<script src="app/header/header.js"></script>
+		<script src="app/header/headerCtrl.js"></script>
+		<script src="app/app.js"></script>
+	</body>
+</html>
